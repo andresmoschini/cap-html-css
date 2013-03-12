@@ -4,5 +4,10 @@ img {
 }
 
 table, td {
-	border: 1px #70b8ff dashed;
+	border-width: 2px;
+	border-spacing: 3px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	background-color: white;
 }
