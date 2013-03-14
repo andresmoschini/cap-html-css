@@ -1,0 +1,44 @@
+html{ 
+  background: url(http://www.ianatheatre.com/live_in_concert-1280x800.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div{
+
+}
+
+img{
+	display: inline-block;
+	margin-left: 0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.vai, .petrucci, .gilbert {
+    border: 4px solid #E6E353;
+    display: inline-block;
+	margin-left: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    
+}
+
+.petrucci{
+    border: 4px solid #3E4BB0;      
+}
+
+#Best_of_3{
+    border: 4px solid #A81DB5;    
+}
+
+#contenedor{
+	width: 400px;
+	margin: 0 auto;
+}
+
+
