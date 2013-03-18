@@ -1,0 +1,110 @@
+html{ 
+  background: url(http://www.ianatheatre.com/live_in_concert-1280x800.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.circle_images{
+	display: inline-block;
+	margin-left: 0px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.vai, .petrucci, .gilbert{
+  border: 4px solid #E6E353;
+  display: inline-block;
+	margin-left: 5px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+ }
+
+.petrucci{
+  border: 4px solid #3E4BB0;      
+}
+
+#Best_of_3{
+  border: 4px solid #A81DB5;    
+}
+
+#contenedor{
+	width: 350px;
+  height: 150px;
+	margin: 0 auto;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-top: -25px;
+  margin-left:-175px; 
+}
+
+.top_text{
+  position: relative;
+  padding: 45px 5px 0px;
+  width: 180px;
+  margin: 165px auto;
+}
+
+.g3{
+  opacity: 0.95;
+  color : #FFF;
+  position: relative;
+  text-shadow: -2px 0 #456380, 0 2px #456380, 2px 0 #456380, 0 -2px #456380;
+  font-family : impact;
+  display: inline;
+  font-size: 125px;
+  line-height: 45px;
+  margin-left: 0px;
+}
+
+.c2014{
+  color : #FFF;
+  text-shadow: -2px 0 #456380, 0 2px #456380, 2px 0 #456380, 0 -2px #456380;
+  font-size: 54px;
+  font-family : impact;
+  position: absolute;
+  display: inline-block;
+  margin-top: -9px;
+  margin-left: -19px;
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.bottom_text{
+  position: relative;
+  padding: 45px 5px 0px;
+  width: 380px;
+  margin: -20px auto;
+  color: #FFF;
+  text-shadow: -2px 0 #456380, 0 2px #456380, 2px 0 #456380, 0 -2px #456380;
+  font-family : impact;
+  display: inline-block;
+  font-size: 77px;
+  line-height: 45px;
+}
+
+.staring{
+  position: relative;
+  padding: 45px 5px 0px;
+  color: #FFF;
+  text-shadow: -2px 0 #456380, 0 2px #456380, 2px 0 #456380, 0 -2px #456380;
+  font-family : impact;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.guitarists{
+  position: relative;
+  padding: 45px 5px 0px;
+  color: #FFF;
+  margin: -40px auto;
+  text-shadow: -2px 0 #456380, 0 2px #456380, 2px 0 #456380, 0 -2px #456380;
+  font-family : impact;
+  display: inline-block;
+  font-size: 20px;
+}
