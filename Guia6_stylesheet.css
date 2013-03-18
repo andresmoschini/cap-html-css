@@ -34,19 +34,16 @@ html{
 #contenedor{
 	width: 350px;
   height: 150px;
-	margin: 0 auto;
-  position: fixed;
+	margin: 225px auto;
   left: 50%;
   top: 50%;
-  margin-top: -25px;
-  margin-left:-175px; 
 }
 
 .top_text{
   position: relative;
   padding: 45px 5px 0px;
   width: 180px;
-  margin: 165px auto;
+  margin: 20px auto;
 }
 
 .g3{
@@ -93,6 +90,7 @@ html{
   padding: 45px 5px 0px;
   color: #FFF;
   text-shadow: -2px 0 #456380, 0 2px #456380, 2px 0 #456380, 0 -2px #456380;
+  letter-spacing: 1px;
   font-family : impact;
   display: inline-block;
   font-size: 25px;
@@ -104,7 +102,8 @@ html{
   color: #FFF;
   margin: -40px auto;
   text-shadow: -2px 0 #456380, 0 2px #456380, 2px 0 #456380, 0 -2px #456380;
+  letter-spacing: 1px;
   font-family : impact;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
 }
