@@ -133,6 +133,8 @@ html{
 
 .audio{
   float: left;
-  margin-bottom: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
