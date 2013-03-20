@@ -1,0 +1,29 @@
+body{
+	background-color: #fff;
+}
+
+.logo{
+	display: inline-block;
+	float: left;
+	height: 48px;
+	width: 136px;
+}
+
+.top_container{
+	margin: auto;
+	display: inline-block;
+	float: right;
+	height: 60px;
+	text-align: right;
+	width: 250px;
+	
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav li{
+	float: right;
+	padding-left: 20px;
+}
