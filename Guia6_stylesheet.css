@@ -1,3 +1,5 @@
+/* RESET */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,6 +22,8 @@ time, mark, audio, video {
 	font-family: 'Ubuntu',sans-serif;
 	vertical-align: baseline;		
 }
+
+/* RESET */
 
 html{ 
   background: url(http://www.ianatheatre.com/live_in_concert-1280x800.jpg) no-repeat center center fixed; 

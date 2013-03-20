@@ -1,5 +1,50 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, textarea, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, input,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: sans-serif;
+	vertical-align: baseline;		
+}
+
+/* RESET */
+
 body{
 	background-color: #fff;
+}
+
+header{
+	height: 80px;
+}
+
+.middle{
+	width: 540px;
+	margin-left: -270px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    overflow: auto;
+	height: 400px;
+    margin-top: -199px;
+}
+
+.middle img{
+	width: 540px;
 }
 
 .logo{
@@ -7,16 +52,32 @@ body{
 	float: left;
 	height: 48px;
 	width: 136px;
+	margin-top: 13px;
 }
 
 .top_container{
+	margin: 0pt auto;
+	width: 960px;
+	height: 100%;
+}
+
+header nav{
 	margin: auto;
+	margin-top: 19px;
 	display: inline-block;
 	float: right;
 	height: 60px;
 	text-align: right;
-	width: 250px;
-	
+	width: 760px;
+}
+
+.index_nav{
+	width: 276px;
+}
+
+.nav_container{
+	margin: 0pt auto;
+	width: 276px;
 }
 
 header nav ul{
@@ -24,6 +85,63 @@ header nav ul{
 }
 
 header nav li{
+	float: left;
+}
+
+header nav li a{
+	color: #8B7355;
+	text-decoration: none;
+	display: inline-block;
+	padding: 6px 25px;
+}
+
+.us{
+	border-right: 1px solid #8B7355;
+	text-align: center;
+}
+
+.us:hover, .us.selected {
+	color: #FFF;
+	background-color: #59C4A0;
+}
+
+.doppler{
+	border-right: 1px solid #8B7355;
+}
+
+.doppler:hover, .doppler.selected {
+	color: #FFF;
+	background-color: #FFD633;
+}
+
+.lander:hover, .lander.selected{
+	color: #FFF;
+	background-color: #66CCFF;
+}
+
+.bottom_container p{
+	font-size: 16px;
+	color: #8B7355;
+	cursor: pointer;
 	float: right;
-	padding-left: 20px;
+  	position: absolute;
+  	bottom: 15px;
+  	right: 25px;
+}
+
+.bottom_container p:hover{
+	color: #00A56C;
+}
+
+.middle_container{	
+	position: relative;
+	margin: auto;
+	width: 960px;
+	height: 100%;
+	display: block;
+}
+
+.middle_container .p01, .p02, .p03, .p04{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 48px;
 }
