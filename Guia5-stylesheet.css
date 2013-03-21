@@ -1,12 +1,12 @@
 html{ 
-  background: url(http://www.ianatheatre.com/live_in_concert-1280x800.jpg) no-repeat center center fixed; 
+  background: url(http://0.static.wix.com/media/4316c1_a3540b0035ad0b30f82e6a1bea1af930.jpg_1024) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.circle_images{
+.circle-images{
 	display: inline-block;
 	margin-left: 0px;
     height: 100px;
@@ -27,7 +27,7 @@ html{
     border: 4px solid #3E4BB0;      
 }
 
-#Best_of_3{
+#Best-of-3{
     border: 4px solid #A81DB5;    
 }
 
