@@ -1,0 +1,127 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, textarea, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, input,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: sans-serif;
+	vertical-align: baseline;		
+}
+
+/* RESET */
+
+body{
+	background-color: #fff;
+}
+
+header{
+	height: 80px;
+}
+
+.top-container{
+	left: 50%;
+	position: fixed;
+	margin-left: -480px;
+	width: 960px;
+}
+
+.float-right-container{
+	
+}
+
+.index-nav{
+	width: 350px;
+	float: right;
+}
+
+.index-nav ul{
+	list-style: none;
+}
+
+.index-nav li{
+	float: left;
+	padding-top: 15px;
+}
+
+.index-nav a{
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	color: black;
+	font-size: 0.8em;
+	border-bottom: 1px solid #808080;
+	border-left: 1px dotted #5E5E5E;
+	text-decoration: none;
+	padding: 53px 15px 15px 15px;
+}
+
+.index-nav li:first-child a{
+	border-left: none;
+}
+
+.index-nav a:hover, a.selected{
+	color: #FFF;
+	background-color: #000;
+}
+
+.middle-container{
+	width: 960px;
+	margin: 0pt auto;
+}
+
+.middle-container div{
+	display: inline-block;
+}
+
+.middle-container-top{
+	height: 300px;
+}
+
+.big-text{
+	font-size: 50px;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.info01-div{
+	width: 200px;
+}
+
+.info02-div{
+	width: 200px;
+}
+
+.info01-text01{
+	font-family: Consolas, monaco, monospace;
+	font-size: 0.9em;
+}
+
+.info01-text02{
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 0.9em;
+}
+
+.info01-text02 a{
+	text-decoration: none;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 0.9em;	
+	color: black;
+}
+
+.info01-text02 a:visited, a:hover, a:active{
+	text-decoration: none;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 0.9em;
+	text-decoration: underline;
+}
